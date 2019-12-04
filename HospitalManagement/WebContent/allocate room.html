@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+label{
+width: 8em;
+float: left;
+text-align: left;
+margin-left: 3.2em;
+margin-right: 0.6em;
+display: block
+}
+
+body {
+    background-image: url("hospital.jpg");
+}
+</style>
+</head>
+
+<div>
+<a href="Homepage.html">
+  <img src="home.gif" alt="home" style="width:70px;height:70px;" align="left">
+</a>
+</div>
+
+<body>
+<div style="background-color:lightblue; width:600px; height:600px; margin:0 auto;">
+</br></br></br>
+<h2>&nbsp&nbsp&nbsp Allocate room and nurse to the patient </h2></br>
+
+<form action="RoomAllocation" method="get">
+
+<label for="patientid"> Patiient ID : </label> <input type="text" name="Patient_ID" /><br/><br/>
+<label for="roomno"> Room Number  : </label> <input type="text" name="Room_Number" /><br/><br/>
+<label for="roomtype"> Room Type : </label> <input type="text" name="room_type" /><br/><br/>
+<label for="period"> Period : </label> <input type="text" name="period" /><br/><br/>
+<label for="Nurse_ID"> ID of the nurse who take care of this room : </label> <input type="text" name="Nurse_ID" /><br/><br/><br/>
+
+<div align="center">
+<input type="submit" value="Submit" />
+</div>
+                   
+</form>
+
+</div>
+</body>
+</html>

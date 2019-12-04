@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+label{
+width: 8em;
+float: left;
+text-align: left;
+margin-left: 3.2em;
+margin-right: 0.6em;
+display: block
+}
+
+body {
+    background-image: url("hospital.jpg");
+}
+</style>
+</head>
+
+<div>
+<a href="Homepage.html">
+  <img src="home.gif" alt="home" style="width:70px;height:70px;" align="left">
+</a>
+</div>
+
+<body>
+<div style="background-color:lightblue; width:600px; height:600px; margin:0 auto;">
+</br></br></br>
+<h2>&nbsp&nbsp&nbsp Generate bill to the patient </h2></br>
+
+<form action="GenerateBill" method="get">
+
+<label for="billid"> Bill ID : </label> <input type="text" name="Bill_ID" /><br/><br/>
+<label for="patientid"> Patient ID  : </label> <input type="text" name="Patient_ID" /><br/><br/>
+<label for="billtype"> Bill Type : </label> <input type="text" name="bill_type" /><br/><br/>
+<label for="amount"> Amount : </label> <input type="text" name="amount" /><br/><br/>
+
+<div align="center">
+<input type="submit" value="Submit" />
+</div>
+                   
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+label{
+width: 8em;
+float: left;
+text-align: left;
+margin-left: 3.2em;
+margin-right: 0.6em;
+display: block
+}
+
+body {
+    background-image: url("hospital.jpg");
+}
+</style>
+</head>
+
+<div>
+<a href="Homepage.html">
+  <img src="home.gif" alt="home" style="width:70px;height:70px;" align="left">
+</a>
+</div>
+
+<body>
+<div style="background-color:lightblue; width:600px; height:600px; margin:0 auto;">
+</br></br></br>
+<h2>&nbsp&nbsp&nbsp Please enter the treatment details of the patient </h2></br>
+
+<form action="Treatment" method="get">
+
+<label for="doctorid"> Doctor ID : </label> <input type="text" name="Doctor_ID" /><br/><br/>
+<label for="patientid"> Patiient ID : </label> <input type="text" name="Patient_ID" /><br/><br/>
+<label for="testid"> Suggested test id  : </label> <input type="text" name="testid" /><br/><br/>
+<label for="testname"> Test Name : </label> <input type="text" name="testname" /><br/><br/>
+<label for="description"> Treatment Description : </label> <input type="text" name="description" /><br/><br/>
+<label for="medicineid"> Medicine ID : </label> <input type="text" name="medicineid" /><br/><br/><br/>
+<label for="medicinename"> Medicine Name : </label> <input type="text" name="medicinename" /><br/><br/><br/>
+<label for="quantity"> Quantity : </label> <input type="text" name="quantity" /><br/><br/><br/>
+
+<div align="center">
+<input type="submit" value="Submit" />
+</div>
+                   
+</form>
+
+</div>
+</body>
+</html>
